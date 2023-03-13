@@ -1,0 +1,17 @@
+<app-nav></app-nav>
+<div class="content" role="main">
+  <!--ajout-->
+  <div style="text-align:center">
+    <h1>
+      Welcome to {{ title }}!
+    </h1>
+    <p>Mis à jour : {{ lastUpdate | date }}</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+
